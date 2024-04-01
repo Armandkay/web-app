@@ -1,1 +1,2 @@
-# web-app
+The web application enablesa user to add tasks (Add Task button), view them on a list, check them done using the checkbox.
+while in the process, i assumed The application may offer limited customization options for tasks or user preferences in the initial release. Additional customization features such as task categories, priority levels, or due dates might be added in future updates based on user feedback.
