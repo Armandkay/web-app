@@ -19,11 +19,19 @@ document.addEventListener("DOMContentLoaded", function() {
             });
             var span = document.createElement('span');
             span.textContent = taskText;
+            var deleteBtn = document.createElement('button');
+            deleteBtn.textContent = 'Delete';
+            deleteBtn.classList.add('delete-btn');
+            deleteBtn.addEventListener('click', function() {
+                taskList.removeChild(li);
+            });
             li.appendChild(checkbox);
             li.appendChild(span);
+            li.appendChild(deleteBtn);
             taskList.appendChild(li);
             taskInput.value = '';
         }
     }
 });
+
 
